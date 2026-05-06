@@ -105,12 +105,12 @@ const App: React.FC = () => {
       </nav>
 
       {/* Hero Section */}
-      <section id="inicio" className="relative h-[90vh] flex items-center overflow-hidden">
+      <section id="inicio" className="relative min-h-[90vh] flex items-center overflow-hidden bg-slate-900">
         <div className="absolute inset-0 z-0">
           <img 
             src="/images/hero_hair.jpeg" 
             alt="Cabello liso y brillante perfectamente alisado por Alis Mage" 
-            className="w-full h-full object-cover object-center"
+            className="w-full h-full object-contain object-right"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent"></div>
         </div>
@@ -168,7 +168,7 @@ const App: React.FC = () => {
                   e.currentTarget.onerror = null;
                   e.currentTarget.src = "/images/hero_hair.jpeg";
                 }}
-                className="w-full h-auto rounded-2xl shadow-2xl relative z-10 object-cover aspect-[4/5]"
+                className="w-full h-auto rounded-2xl shadow-2xl relative z-10 object-cover aspect-[9/16] object-top"
               />
               <div className="absolute -bottom-6 -right-6 bg-white p-6 rounded-xl shadow-xl z-20 hidden lg:block border border-pink-100">
                 <p className="text-purple-600 font-bold text-lg italic">"Tu cabello, nuestra magia"</p>
@@ -219,7 +219,7 @@ const App: React.FC = () => {
                   e.currentTarget.onerror = null;
                   e.currentTarget.src = "/images/before1.jpg";
                 }}
-                className="w-24 h-24 sm:w-32 sm:h-32 md:w-48 md:h-48 object-cover rounded-full border-4 border-pink-100 shadow-lg"
+                className="w-24 h-24 sm:w-32 sm:h-32 md:w-48 md:h-48 object-contain bg-white rounded-full border-4 border-pink-100 shadow-lg"
               />
             </div>
           </div>
