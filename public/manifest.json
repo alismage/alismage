@@ -3,17 +3,19 @@
   "name": "Alis Mage - Tratamientos Capilares",
   "icons": [
     {
-      "src": "/images/logo-pwa.png",
+      "src": "/images/logo-pwa.svg",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/svg+xml"
     },
     {
-      "src": "/images/logo-pwa-512.png",
+      "src": "/images/logo-pwa-maskable.svg",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "theme_color": "#9333ea",
   "background_color": "#ffffff"
