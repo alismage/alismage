@@ -108,7 +108,7 @@ const App: React.FC = () => {
       <section id="inicio" className="relative h-[90vh] flex items-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/images/hero_main.jpg" 
+            src="/images/hero_hair.jpg" 
             alt="Cabello liso y brillante perfectamente alisado por Alis Mage" 
             className="w-full h-full object-cover object-center"
           />
@@ -162,7 +162,7 @@ const App: React.FC = () => {
             <div className="w-full md:w-1/2 relative">
               <div className="absolute -top-6 -left-6 w-full h-full border-2 border-pink-200 rounded-2xl z-0"></div>
               <img 
-                src="/images/alis_portrait.jpg" 
+                src="/images/stylist.jpg" 
                 alt="Estilista profesional Alis Mage" 
                 className="w-full h-auto rounded-2xl shadow-2xl relative z-10 object-cover aspect-[4/5]"
               />
@@ -209,7 +209,7 @@ const App: React.FC = () => {
             </div>
             <div className="hidden md:block">
               <img 
-                src="/images/service_detail.jpg" 
+                src="/images/service_keratin.jpg" 
                 alt="Detalle de tratamiento profesional" 
                 className="w-48 h-48 object-cover rounded-full border-4 border-pink-100 shadow-lg"
               />
