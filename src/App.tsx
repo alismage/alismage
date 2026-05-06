@@ -108,7 +108,7 @@ const App: React.FC = () => {
       <section id="inicio" className="relative h-[90vh] flex items-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/images/hero_hair.jpg" 
+            src="/images/hero_hair.jpeg" 
             alt="Cabello liso y brillante perfectamente alisado por Alis Mage" 
             className="w-full h-full object-cover object-center"
           />
@@ -162,11 +162,11 @@ const App: React.FC = () => {
             <div className="w-full md:w-1/2 relative">
               <div className="absolute -top-6 -left-6 w-full h-full border-2 border-pink-200 rounded-2xl z-0"></div>
               <img 
-                src="/images/stylist.jpg" 
+                src="/images/stylist.jpeg" 
                 alt="Estilista profesional Alis Mage" 
                 onError={(e) => {
                   e.currentTarget.onerror = null;
-                  e.currentTarget.src = "/images/hero_hair.jpg";
+                  e.currentTarget.src = "/images/hero_hair.jpeg";
                 }}
                 className="w-full h-auto rounded-2xl shadow-2xl relative z-10 object-cover aspect-[4/5]"
               />
@@ -213,7 +213,7 @@ const App: React.FC = () => {
             </div>
             <div className="block mx-auto md:mx-0 md:flex-shrink-0">
               <img 
-                src="/images/service_keratin.jpg" 
+                src="/images/service_keratin.jpeg" 
                 alt="Detalle de tratamiento profesional" 
                 onError={(e) => {
                   e.currentTarget.onerror = null;
