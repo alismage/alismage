@@ -164,6 +164,10 @@ const App: React.FC = () => {
               <img 
                 src="/images/stylist.jpg" 
                 alt="Estilista profesional Alis Mage" 
+                onError={(e) => {
+                  e.currentTarget.onerror = null;
+                  e.currentTarget.src = "/images/hero_hair.jpg";
+                }}
                 className="w-full h-auto rounded-2xl shadow-2xl relative z-10 object-cover aspect-[4/5]"
               />
               <div className="absolute -bottom-6 -right-6 bg-white p-6 rounded-xl shadow-xl z-20 hidden lg:block border border-pink-100">
@@ -211,6 +215,10 @@ const App: React.FC = () => {
               <img 
                 src="/images/service_keratin.jpg" 
                 alt="Detalle de tratamiento profesional" 
+                onError={(e) => {
+                  e.currentTarget.onerror = null;
+                  e.currentTarget.src = "/images/before1.jpg";
+                }}
                 className="w-48 h-48 object-cover rounded-full border-4 border-pink-100 shadow-lg"
               />
             </div>
