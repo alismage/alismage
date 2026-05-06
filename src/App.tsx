@@ -206,12 +206,12 @@ const App: React.FC = () => {
       {/* Catalog & Services Section */}
       <section id="servicios" className="py-24 bg-white">
         <div className="container mx-auto px-4 md:px-8 mb-16">
-          <div className="flex flex-col md:flex-row items-end justify-between gap-8">
+          <div className="flex flex-col md:flex-row items-center md:items-end justify-between gap-6 md:gap-8">
             <div className="text-center md:text-left">
               <h2 className="text-purple-500 font-['Dancing_Script'] text-3xl mb-2">Catálogo de Magia</h2>
               <h3 className="text-4xl md:text-5xl font-['Playfair_Display'] font-bold text-slate-800">Tratamientos Exclusivos</h3>
             </div>
-            <div className="hidden md:block">
+            <div className="block mx-auto md:mx-0 md:flex-shrink-0">
               <img 
                 src="/images/service_keratin.jpg" 
                 alt="Detalle de tratamiento profesional" 
@@ -219,7 +219,7 @@ const App: React.FC = () => {
                   e.currentTarget.onerror = null;
                   e.currentTarget.src = "/images/before1.jpg";
                 }}
-                className="w-48 h-48 object-cover rounded-full border-4 border-pink-100 shadow-lg"
+                className="w-24 h-24 sm:w-32 sm:h-32 md:w-48 md:h-48 object-cover rounded-full border-4 border-pink-100 shadow-lg"
               />
             </div>
           </div>
